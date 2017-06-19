@@ -1,8 +1,8 @@
 siDirect2crawl.pl
 ======================
 
-This script uses WWW::Mechanize to get siRNAs from [siDirect 2.0]
- (http://siDirect2.RNAi.jp/) web server.  
+This script uses WWW::Mechanize to get siRNAs from
+[siDirect 2.0](http://siDirect2.RNAi.jp/) web server.  
 WWW::Mechanize module is available at CPAN.
 
 ### Usage ###
@@ -50,8 +50,7 @@ command to prevent overloading our server.
 siRNA design options can be set using ```%param```. 
 All of the parameters are described in the code.
 
-![parameters]
-(http://g86.dbcls.jp/~meso/meme/wp-content/uploads/2011/06/siDirect2crawl_options.png
+![parameters](http://data.dbcls.jp/~meso/img/siDirect2crawl_options.png
 "siDirect 2.0 parameters")
 
 **Example 1.**
@@ -90,5 +89,5 @@ License
 Copyright &copy; 2011 Yuki Naito
  ([@meso_cacase](http://twitter.com/meso_cacase)) at  
 Database Center for Life Science (DBCLS), Japan.  
-This software is distributed under [modified BSD license]
- (http://www.opensource.org/licenses/bsd-license.php).
+This software is distributed under
+[modified BSD license](http://www.opensource.org/licenses/bsd-license.php).
